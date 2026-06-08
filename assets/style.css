@@ -10,10 +10,13 @@ body {
   background: url(img/bg-desktop-blue.webp);
   font-family: Josefin Sans;
 }
-.cartao__conteudo {
+.cabecalho{
+  font-display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 25px;
   background-color: var(--card-front-color);
-  text-align: center;
-  height: 100%;
+  
 }
 #container {
   display: flex;
